@@ -119,9 +119,9 @@ cc_library(
 
 http_archive(
     name = "abseil-cpp",
-    sha256 = "7262daa7c1711406248c10f41026d685e88223bc92817d16fb93c19adb57f669",
-    strip_prefix = "abseil-cpp-20250512.0",
-    urls = ["https://github.com/abseil/abseil-cpp/releases/download/20250512.0/abseil-cpp-20250512.0.tar.gz"],
+    sha256 = "6e1aee535473414164bf83e4ebc40240dec71a4701f8a642d906e95bea1aea0c",
+    strip_prefix = "abseil-cpp-20260526.0",
+    urls = ["https://github.com/abseil/abseil-cpp/releases/download/20260526.0/abseil-cpp-20260526.0.tar.gz"],
 )
 
 # Pre-built OpenBLAS for Windows x64. Provides libopenblas.lib (import lib)
